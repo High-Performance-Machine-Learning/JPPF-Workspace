@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="lib/jppf-client-6.2.jar"/>
+	<classpathentry kind="lib" path="lib/jppf-common-6.2.jar"/>
+	<classpathentry kind="lib" path="lib/jppf-jmxremote-nio-6.2.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="lib/lz4-java-1.6.0.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-log4j12-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib-src/jppf-client-src-6.2.jar"/>
+	<classpathentry kind="lib" path="lib-src/jppf-common-src-6.2.jar"/>
+	<classpathentry kind="lib" path="lib-src/jppf-jmxremote-nio-src-6.2.jar"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>
