@@ -1,13 +1,13 @@
-2025-06-25 15:21:16,830 [INFO ][org.jppf.utils.FileUtils.initJPPFTempDir(482)]: JPPF temp folder C:\Users\Work\AppData\Local\Temp\.jppf
-2025-06-25 15:21:17,406 [INFO ][org.jppf.utils.VersionUtils.logVersionInformation(78)]: --------------------------------------------------------------------------------
-2025-06-25 15:21:17,407 [INFO ][org.jppf.utils.VersionUtils.logVersionInformation(79)]: JPPF Version: 6.2, Build number: 2613, Build date: 2020-02-08 09:42 CET
-2025-06-25 15:21:17,407 [INFO ][org.jppf.utils.VersionUtils.logVersionInformation(80)]: starting client with PID=21136, UUID=631DE18A-4837-4869-88A8-6B3AE6A0EA25
-2025-06-25 15:21:17,407 [INFO ][org.jppf.utils.VersionUtils.logVersionInformation(81)]: --------------------------------------------------------------------------------
-2025-06-25 15:21:17,410 [INFO ][org.jppf.persistence.DatasourceInitializerImpl.init(128)]: HikariCP libraries are not in the classpath, no datasource will be defined
-2025-06-25 15:21:17,412 [INFO ][org.jppf.client.AbstractGenericClient.init(138)]: created client-side datasources: []
-2025-06-25 15:21:17,418 [INFO ][org.jppf.load.balancer.persistence.LoadBalancerPersistenceManager.<init>(62)]: load-balancer persistence is not configured
-2025-06-25 15:21:17,852 [WARN ][org.jppf.utils.JPPFDefaultUncaughtExceptionHandler.uncaughtException(43)]: Uncaught exception in thread Thread[#1,main,5,main] : java.lang.ExceptionInInitializerError: null
-2025-06-25 15:21:31,017 [ERROR][org.jppf.comm.discovery.JPPFMulticastReceiver.run(242)]: Invalid argument: setsockopt
+2025-07-10 17:35:35,097 [INFO ][org.jppf.utils.FileUtils.initJPPFTempDir(482)]: JPPF temp folder C:\Users\Work\AppData\Local\Temp\.jppf
+2025-07-10 17:35:35,737 [INFO ][org.jppf.utils.VersionUtils.logVersionInformation(78)]: --------------------------------------------------------------------------------
+2025-07-10 17:35:35,738 [INFO ][org.jppf.utils.VersionUtils.logVersionInformation(79)]: JPPF Version: 6.2, Build number: 2613, Build date: 2020-02-08 09:42 CET
+2025-07-10 17:35:35,738 [INFO ][org.jppf.utils.VersionUtils.logVersionInformation(80)]: starting client with PID=13360, UUID=81EA57E8-C8BE-4B8A-84B2-954F18E93EC5
+2025-07-10 17:35:35,738 [INFO ][org.jppf.utils.VersionUtils.logVersionInformation(81)]: --------------------------------------------------------------------------------
+2025-07-10 17:35:35,741 [INFO ][org.jppf.persistence.DatasourceInitializerImpl.init(128)]: HikariCP libraries are not in the classpath, no datasource will be defined
+2025-07-10 17:35:35,743 [INFO ][org.jppf.client.AbstractGenericClient.init(138)]: created client-side datasources: []
+2025-07-10 17:35:35,750 [INFO ][org.jppf.load.balancer.persistence.LoadBalancerPersistenceManager.<init>(62)]: load-balancer persistence is not configured
+2025-07-10 17:35:36,192 [WARN ][org.jppf.utils.JPPFDefaultUncaughtExceptionHandler.uncaughtException(43)]: Uncaught exception in thread Thread[#1,main,5,main] : java.lang.ExceptionInInitializerError: null
+2025-07-10 17:35:49,358 [ERROR][org.jppf.comm.discovery.JPPFMulticastReceiver.run(242)]: Invalid argument: setsockopt
 java.net.SocketException: Invalid argument: setsockopt
 	at java.base/sun.nio.ch.Net.setInterface6(Native Method)
 	at java.base/sun.nio.ch.DatagramChannelImpl.setOption(DatagramChannelImpl.java:381)
@@ -16,13 +16,13 @@ java.net.SocketException: Invalid argument: setsockopt
 	at java.base/sun.nio.ch.DatagramSocketAdaptor.setInterface(DatagramSocketAdaptor.java:528)
 	at java.base/java.net.MulticastSocket.setInterface(MulticastSocket.java:404)
 	at org.jppf.comm.discovery.JPPFMulticastReceiver$Receiver.run(JPPFMulticastReceiver.java:216)
-2025-06-25 15:21:38,913 [INFO ][org.jppf.client.AbstractGenericClient.newConnection(246)]: connection [jppf_discovery-1-1] created
-2025-06-25 15:21:43,123 [INFO ][org.jppf.client.ClassServerDelegateImpl.init(72)]: [client: jppf_discovery-1-1 - ClassServer] Attempting connection to the class server at DESKTOP-SKR61MK:11111
-2025-06-25 15:21:43,128 [INFO ][org.jppf.client.ClassServerDelegateImpl.init(78)]: [client: jppf_discovery-1-1 - ClassServer] Reconnected to the class server
-2025-06-25 15:21:43,139 [INFO ][org.jppf.client.TaskServerConnectionHandler.init(65)]: [client: jppf_discovery-1-1 - TasksServer] Attempting connection to the task server at DESKTOP-SKR61MK:11111
-2025-06-25 15:21:43,158 [INFO ][org.jppf.client.TaskServerConnectionHandler.init(82)]: [client: jppf_discovery-1-1 - TasksServer] Reconnected to the JPPF task server
-2025-06-25 15:21:43,167 [INFO ][org.jppf.nio.NioServer.<init>(136)]: initializing JMXNioServer(JMXRemote-1)
-2025-06-25 15:21:43,181 [ERROR][org.jppf.ui.monitoring.data.NewConnectionTask.run(88)]: 
+2025-07-10 17:36:01,821 [INFO ][org.jppf.client.AbstractGenericClient.newConnection(246)]: connection [jppf_discovery-1-1] created
+2025-07-10 17:36:06,051 [INFO ][org.jppf.client.ClassServerDelegateImpl.init(72)]: [client: jppf_discovery-1-1 - ClassServer] Attempting connection to the class server at DESKTOP-SKR61MK:11111
+2025-07-10 17:36:06,057 [INFO ][org.jppf.client.ClassServerDelegateImpl.init(78)]: [client: jppf_discovery-1-1 - ClassServer] Reconnected to the class server
+2025-07-10 17:36:06,069 [INFO ][org.jppf.client.TaskServerConnectionHandler.init(65)]: [client: jppf_discovery-1-1 - TasksServer] Attempting connection to the task server at DESKTOP-SKR61MK:11111
+2025-07-10 17:36:06,089 [INFO ][org.jppf.client.TaskServerConnectionHandler.init(82)]: [client: jppf_discovery-1-1 - TasksServer] Reconnected to the JPPF task server
+2025-07-10 17:36:06,097 [INFO ][org.jppf.nio.NioServer.<init>(136)]: initializing JMXNioServer(JMXRemote-1)
+2025-07-10 17:36:06,116 [ERROR][org.jppf.ui.monitoring.data.NewConnectionTask.run(88)]: 
 java.lang.reflect.InvocationTargetException
 	at java.desktop/java.awt.EventQueue.invokeAndWait(EventQueue.java:1371)
 	at java.desktop/java.awt.EventQueue.invokeAndWait(EventQueue.java:1346)
@@ -94,53 +94,4 @@ Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ExceptionI
 	at org.jppf.ui.monitoring.ConsoleLauncher.loadUI(ConsoleLauncher.java:166)
 	at org.jppf.ui.monitoring.ConsoleLauncher.main(ConsoleLauncher.java:100)
 	at org.jppf.ui.console.JPPFAdminConsole.main(JPPFAdminConsole.java:65)
-2025-06-25 15:21:43,192 [INFO ][org.jppf.nio.NioConstants.getCheckConnection(85)]: NIO checks are enabled
-2025-06-25 15:29:37,995 [WARN ][org.jppf.client.balancer.ChannelWrapperRemoteAsync.handleThrowable(311)]: Throwable was raised on channel ChannelWrapperRemoteAsync[bundleQueue=0, responseMap=0, jobCount=0, resetting=false, bundlerAlgorithm=null, channel=jppf_discovery-1-1[DESKTOP-SKR61MK:11111] (id=1) : ACTIVE (JPPFClientConnectionImpl@3999da45)]
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318)
-	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
-	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
-	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
-	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:291)
-	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:347)
-	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
-	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
-	at java.base/java.io.DataInputStream.read(DataInputStream.java:158)
-	at org.jppf.serialization.SerializationUtils.readToBuf(SerializationUtils.java:447)
-	at org.jppf.serialization.SerializationUtils.readInt(SerializationUtils.java:257)
-	at org.jppf.comm.socket.AbstractSocketWrapper.readInt(AbstractSocketWrapper.java:241)
-	at org.jppf.io.SocketWrapperInputSource.readInt(SocketWrapperInputSource.java:85)
-	at org.jppf.io.IOHelper.readData(IOHelper.java:105)
-	at org.jppf.io.IOHelper.unwrappedData(IOHelper.java:178)
-	at org.jppf.client.BaseJPPFClientConnection.receiveHeader(BaseJPPFClientConnection.java:269)
-	at org.jppf.client.JPPFClientConnectionImpl.receiveHeader(JPPFClientConnectionImpl.java:41)
-	at org.jppf.client.balancer.ChannelWrapperRemoteAsync$RemoteReceiver.run(ChannelWrapperRemoteAsync.java:203)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-2025-06-25 15:29:37,995 [WARN ][org.jppf.client.ClassServerDelegateImpl.run(97)]: [jppf_discovery-1-1 - ClassServer] caught java.net.SocketException: Connection reset, will re-initialise ...
-2025-06-25 15:29:37,996 [ERROR][org.jppf.jmxremote.nio.JMXNioServer.handleSelectionException(140)]: error on ChannelsPair[readingChannelID=1, writingChannelID=2, connectionID=jppf://[0:0:0:0:0:0:0:0]:11111 1, closed=false, closing=false, serverSide=false, socketChannel=java.nio.channels.SocketChannel[connected local=/10.147.20.137:50364 remote=/10.147.20.137:11111]] :
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
-	at org.jppf.io.ChannelInputSource.read(ChannelInputSource.java:79)
-	at org.jppf.io.ChannelInputSource.read(ChannelInputSource.java:56)
-	at org.jppf.io.MultipleBuffersLocation.nonBlockingTransferFrom(MultipleBuffersLocation.java:176)
-	at org.jppf.io.MultipleBuffersLocation.transferFrom(MultipleBuffersLocation.java:141)
-	at org.jppf.nio.PlainNioObject.read(PlainNioObject.java:91)
-	at org.jppf.nio.SimpleNioMessage.read(SimpleNioMessage.java:55)
-	at org.jppf.jmxremote.nio.JMXContext.readMessage(JMXContext.java:208)
-	at org.jppf.jmxremote.nio.JMXMessageReader.doRead(JMXMessageReader.java:84)
-	at org.jppf.jmxremote.nio.JMXMessageReader.read(JMXMessageReader.java:71)
-	at org.jppf.jmxremote.nio.JMXNioServer.handleRead(JMXNioServer.java:117)
-	at org.jppf.nio.StatelessNioServer.lambda$initNioHandlers$1(StatelessNioServer.java:104)
-	at org.jppf.nio.StatelessNioServer$KeysetHandler.handle(StatelessNioServer.java:198)
-	at org.jppf.nio.StatelessNioServer.lambda$doOperation$3(StatelessNioServer.java:168)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-2025-06-25 15:29:37,997 [INFO ][org.jppf.client.ClassServerDelegateImpl.init(72)]: [client: jppf_discovery-1-1 - ClassServer] Attempting connection to the class server at DESKTOP-SKR61MK:11111
+2025-07-10 17:36:06,124 [INFO ][org.jppf.nio.NioConstants.getCheckConnection(85)]: NIO checks are enabled
